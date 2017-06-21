@@ -5,7 +5,7 @@
   "main": "lorem.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify lorem.js -o dist/lorem.js"
+    "build": "browserify lorem.js -o docs/dist/lorem.js"
   },
   "keywords": [
     "lorem",
