@@ -1,0 +1,19 @@
+{
+  "name": "lorem",
+  "version": "0.0.1",
+  "description": "lorem snippet generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o dist/lorem.js"
+  },
+  "keywords": [
+    "lorem",
+    "generator"
+  ],
+  "author": "Aung Myo Kyaw",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
