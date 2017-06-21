@@ -2,10 +2,10 @@
   "name": "lorem",
   "version": "0.0.1",
   "description": "lorem snippet generator",
-  "main": "index.js",
+  "main": "lorem.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify index.js -o dist/lorem.js"
+    "build": "browserify lorem.js -o dist/lorem.js"
   },
   "keywords": [
     "lorem",
