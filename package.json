@@ -5,15 +5,23 @@
   "main": "lorem.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify lorem.js -o docs/dist/lorem.js"
+    "build": "webpack"
   },
   "keywords": [
     "lorem",
     "generator"
   ],
   "author": "Aung Myo Kyaw",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "browserify": "^14.4.0"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "browserify": "^14.4.0",
+    "webpack": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AungMyoKyaw/lorem"
   }
 }
