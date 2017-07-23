@@ -8,3 +8,6 @@
 
 ## Usage
 Type ```lorem``` and press <kbd>tab</kbd>
+
+## License
+[MIT](./LICENSE)
